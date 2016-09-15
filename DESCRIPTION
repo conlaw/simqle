@@ -1,0 +1,14 @@
+Package: simqle
+Type: Package
+Title: simqle
+Version: 0.1.0
+Author: Connor Lawless
+Maintainer: Connor Lawless <connor.lawless@hotmail.com>
+Description: A wrapper around the RSQLite library to make a more user friendly
+    experience
+License: GPL-3
+LazyData: TRUE
+Imports: RSQLite
+Depends: RSQLite
+Suggests:
+RoxygenNote: 5.0.1
