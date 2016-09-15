@@ -2,7 +2,7 @@ Package: simqle
 Type: Package
 Title: simqle
 Version: 0.1.0
-Author: Connor Lawless
+Author: Connor Lawless, Matt Tribby and Jeffrey Chang
 Maintainer: Connor Lawless <connor.lawless@hotmail.com>
 Description: A wrapper around the RSQLite library to make a more user friendly
     experience
