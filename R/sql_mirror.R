@@ -49,9 +49,7 @@ r_to_sql_types <- function(type){
     return("BOOLEAN")
   }
   else{
-    n<- max(sapply(names(tmp), nchar))
-    message("Implemented as type VARCHAR("+n+")")
-    varchar <- "VARCHAR"+n+")"
-    return(varchar)
+    message("Implemented as type TEXT")
+    return("TEXT")
   }
 }
